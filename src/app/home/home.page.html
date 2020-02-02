@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      My App for Alerts!!!!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-list>
+ <ion-list-header color="tertiary">
+   <ion-label>Random Users List</ion-label>
+   </ion-list-header>
+   <ion-item *ngFor="let x of usersList;let i=index" >
+   <ion-label>
+    <h3>{{x.name.title}}. {{x.name.first}}</h3>
+    <p>{{x.email}}</p>
+    <p>{{x.registered.date}}</p>
+  </ion-label>
+  </ion-item>
+  :</ion-list>
