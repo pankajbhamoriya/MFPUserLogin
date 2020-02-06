@@ -136,7 +136,7 @@
     </mfp:windows>
     <mfp:platformVersion>8.0.0.00-20200126-152713</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
-    <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
+    <mfp:server runtime="mfp" url="http://mpradip.ntpc.co.in:80" />
     <mfp:serverUri url="" />
     <mfp:directUpdateAuthenticityPublicKey />
     <mfp:languagePreferences>en</mfp:languagePreferences>
